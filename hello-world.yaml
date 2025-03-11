@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: hello-world
   labels:
-    name: hello-world
+    app: hello-world
 spec:
   containers:
   - name: hello-world
